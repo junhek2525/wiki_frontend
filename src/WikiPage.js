@@ -2,11 +2,13 @@
 import { useParams } from "react-router-dom";
 
 function WikiPage(){
-    const {param} = useParams();
+    const {searchQuery} = useParams();
     return(
         <div className="container">
-        <h1>위키 정보기 들아갈 곳 입니다.</h1>
-        <div>{param}</div>
+        <h1>{searchQuery}</h1>
+        
+        <div className="article-container"></div>
+        <h2>내용이 읎어</h2>
         </div>
     )
 }
