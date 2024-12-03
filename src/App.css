@@ -3,45 +3,45 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   background-color: #f4f5f7;
   line-height: 1.6;
-  color: #333;
+  color: #333
 }
-a{
+a {
   text-decoration: none;
 }
-.container{
+.container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
 }
-.header{
+header {
   text-align: center;
   margin-bottom: 30px;
 }
-.header h1{
-  color: #2c3e50;
+header h1 {
+  color : #2c3e50;
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
-.search-container{
+.search-container {
   display: flex;
   align-items: center;
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
   overflow: hidden;
 }
-.search-icon{
-  padding:10px;
+.search-icon {
+  font-size: 1.5rem;
+  padding: 10px;
 }
-.search-input{
+.search-input {
   flex-grow: 1;
-  border:none;
+  border: none;
   padding: 15px;
   font-size: 1rem;
   outline: none;
 }
-
